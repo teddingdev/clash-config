@@ -1,0 +1,27 @@
+{
+  "name": "clash-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "clash-config": "dist/index"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run build && node dist/src/index.js",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.59",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "yaml": "^2.1.1"
+  },
+  "node": ">= 16.17.0",
+  "volta": {
+    "node": "16.17.0"
+  }
+}
